@@ -1,0 +1,194 @@
+body {
+    line-height: 1.6;
+    background-color: #00001b;
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0 7em 0 7em;
+}
+
+a {
+    color: #0af1a1; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.tright {
+    margin: 1em 1.4em 0.2em 1.4em;
+    float: right;
+    clear: both;
+}
+
+.thumb {
+    width: auto;
+    background-color: transparent;
+}
+
+.thumbinner {
+    border: 1px solid #c8ccd1;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: #393e46;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.thumbcaption {
+    width: 350px;
+    float: right;
+    clear: both;
+    border: 2px solid #0af1a1;
+    border-radius: 0 0 50px 50px;
+    margin: 0em 1.4em 1.3em 1.4em;
+    text-align: center;
+    padding: 0px;
+    background-color: #13123e;
+}
+
+.thumbcaption-2 {
+    width: 300px;
+    margin: 0em 1.4em 1.3em 1.4em;
+    padding: 10px 0 20px;
+    border: 2px solid #0af1a1;
+    background-color: #13123e;
+    border-radius: 0px 0px 50px 50px;
+    text-align: center;
+    float: right;
+    clear: both;
+}
+
+.thumbimage {
+    border-radius: 20px;
+}
+
+.rightimg2  {
+    float: right;
+    margin: 5px 5px 5px 5px;
+    width: 400px;
+}
+
+.subject {
+    display: table;
+    padding: 7px 17px 7px 17px;
+    border: 2px solid #0af1a1;
+    background-color: #13123e;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.3rem;
+}
+
+.center { 
+    text-align: center; 
+}
+
+.left { 
+    text-align: left; 
+}
+
+.right { 
+    text-align: right; 
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 60px;
+    color: #1ed5c2;
+    background: none;
+    font-weight: normal;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 0.5em;
+    padding-bottom: 0.17em;
+    border-bottom: 1px solid #86ffd4;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    color: #1ed5c2;
+    background: none;
+    font-weight: normal;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 0.5em;
+    padding-bottom: 0.17em;
+    border-bottom: 1px solid #bbfff9;
+}
+
+.blockquote {
+    margin: 0.7em 0 0.7em 5%;
+    padding: 0.25em 1em;
+    background: #1ed5c2;
+    color: black;
+    overflow: hidden;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    border: thin solid #fff;
+    border-radius: 20px;
+    line-height: 2;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.ts-Цитата-leftQuote .ts-Цитата-rightQuote {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.ts-Цитата-quote {
+    font-size: 100%;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    line-height: 2.5em;
+}
+
+#toTop {
+    margin-right: 10px;
+    bottom: 10px; /* отступ кнопки от нижнего края страницы*/
+    float: right
+}
+
+
+#wrapper {
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#wrapper-2 {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#blurred {
+    position: absolute;
+    z-index: 0;
+    filter: blur(100px);
+}
+
+#cover {
+    z-index: 1;
+    position: relative;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
